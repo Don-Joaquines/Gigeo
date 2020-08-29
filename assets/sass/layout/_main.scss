@@ -1,0 +1,50 @@
+.hero-image {
+  background-image: url("../images/image-banner.png");
+  background-color: #cccccc;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-yuki {
+  h2 {
+    font-family: $roboto;
+    font-weight: $bold;
+  }
+  p {
+    font-family: $roboto;
+    font-weight: $regular;
+    color: $plata-vieja;
+  }
+}
+
+.borde-abajo {
+  border-bottom: 1px solid $platinum;
+}
+
+//Seccion videos
+
+.seccion-videos {
+  font-family: $roboto;
+
+  h2 {
+    font-size: $medium-medium;
+    font-weight: $regular;
+  }
+  h4 {
+    font-size: $medium;
+    font-weight: $bold;
+  }
+  p {
+    font-size: $small;
+    font-weight: $regular;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .usuario {
+    display: flex;
+    justify-content: center;
+  }
+}
